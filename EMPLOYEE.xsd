@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="Ashu_Sharma">
+		<xsd:complexType>
+		
+		<xsd:element name="Members">
+			<xsd:complexType>
+				<xsd:sequence>
+					<xsd:element name="Id" type="xs:integer"/>
+					<xsd:element name="Name" type="xs:string"/>
+					<xsd:element name="Age" type="xs:string"/>
+					<xsd:element name="Salary" type="xs:integer">
+					
+ 
+    <xsd:restriction base="xs:integer">
+      <xsd:minInclusive value="50000"/>
+      <xsd:maxInclusive value="200000"/>
+    </xsd:restriction>
+
+</xsd:element>
+					<xsd:element name="Email_ID" type="xs:string"/>
+					<xsd:element name="Mobile" type="xs:integer"/>
+					<xsd:element name="Designation" type="xs:string"/>
+						<xsd:element name="Promotion" type="xs:string"/>
+				
+				
+					
+				
+					
+					
+				</xsd:sequence>	
+			</xsd:complexType>
+		</xsd:element>
+
+	</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
